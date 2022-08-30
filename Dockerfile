@@ -7,7 +7,7 @@ COPY package-lock.json .
 # Install using npm
 RUN npm install
 # copy index.js to image system
-COPY . .
+COPY .
 # run as masud user
 USER masud
 # Expoose on port 3030
