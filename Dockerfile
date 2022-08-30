@@ -9,7 +9,6 @@ RUN npm install
 # copy index.js to image system
 COPY . .
 # run as masud user
-USER masud
 # Expoose on port 3030
 EXPOSE 3030/tcp
 # Start npm
